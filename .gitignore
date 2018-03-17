@@ -10,3 +10,6 @@ MaxCore.max
 *.iws
 out
 java.hprof.txt
+.settings
+.classpath
+.project
