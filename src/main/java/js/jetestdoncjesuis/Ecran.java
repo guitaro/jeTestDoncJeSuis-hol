@@ -26,4 +26,10 @@ public class Ecran {
             boutons.get(numeroBoutonACliquer).clic();
         }
     }
+
+    public void clicPartout() {
+      for (Bouton bouton : boutons) {
+        bouton.clic();
+      }
+    }
 }
