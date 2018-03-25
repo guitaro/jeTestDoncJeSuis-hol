@@ -16,7 +16,7 @@ public class UtilitaireDeClicAleatoireTest {
   }
 
   @Test
-  public void quand_j_ouvre_un_ecran_je_clique_partout_et_rien_ne_bug() {
+  public void quand_j_ouvre_un_ecran_je_clique_aleatoirement_et_rien_ne_bug() {
     UtilitaireDeClicAleatoire utilitaireDeClic = new UtilitaireDeClicAleatoire();
     try {
       utilitaireDeClic.clicsAleatoires(ecrans);
