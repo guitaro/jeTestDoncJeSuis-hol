@@ -2,6 +2,9 @@ package js.jetestdoncjesuis;
 
 import java.util.Collection;
 
+/**
+ * Belle javadoc
+ */
 public class UtilitaireDeClicAleatoire {
 
   public void clicsAleatoires(Collection<Ecran> ecrans) {
