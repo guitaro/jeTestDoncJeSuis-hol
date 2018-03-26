@@ -191,6 +191,7 @@ public class TemporaryFolder extends ExternalResource {
          * and if it wasn't, throw IllegalStateException.
          */
         File root = getRoot();
+        String rootFile = "";
         for (String path : paths) {
             if (new File(path).isAbsolute()) {
                 throw new IOException("folder path \'" + path + "\' is not a relative path");
