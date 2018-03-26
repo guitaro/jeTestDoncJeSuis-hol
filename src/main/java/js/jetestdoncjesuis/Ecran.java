@@ -24,4 +24,20 @@ public class Ecran {
             boutons.get(numeroBoutonACliquer).clic();
         }
     }
+
+    public String getNom() {
+      return nom;
+    }
+
+    public void setNom(String nom) {
+      this.nom = nom;
+    }
+
+    public ArrayList<Bouton> getBoutons() {
+      return boutons;
+    }
+
+    public void setBoutons(ArrayList<Bouton> boutons) {
+      this.boutons = boutons;
+    }
 }
