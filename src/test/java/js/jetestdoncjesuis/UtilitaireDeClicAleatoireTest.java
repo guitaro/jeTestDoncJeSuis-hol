@@ -24,4 +24,9 @@ public class UtilitaireDeClicAleatoireTest {
       fail("Bug en approche !!");
     }
   }
+  
+  @Test
+  public void un_test() {
+    System.out.print("test");
+  }
 }
