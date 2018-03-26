@@ -46,6 +46,7 @@ import org.junit.runners.model.Statement;
 public class DisableOnDebug implements TestRule {
     private final TestRule rule;
     private final boolean debugging;
+    private final String msg = "";
 
     /**
      * Create a {@code DisableOnDebug} instance with the timeout specified in
