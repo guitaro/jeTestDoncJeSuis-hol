@@ -1,13 +1,11 @@
 package js.jetestdoncjesuis;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Random;
+import java.util.*;
 
 public class Ecran {
 
     String nom;
-    ArrayList<Bouton> boutons = new ArrayList();
+    ArrayList<Bouton> boutons = new ArrayList<Bouton>();
 
     public Ecran(String nom) {
         this.nom = nom;
