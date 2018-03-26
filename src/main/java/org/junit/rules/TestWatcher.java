@@ -78,6 +78,12 @@ public abstract class TestWatcher implements TestRule {
         }
     }
 
+    /**
+     * it fail quietly
+     * @param e
+     * @param description
+     * @param errors
+     */
     private void failedQuietly(Throwable e, Description description,
             List<Throwable> errors) {
         try {
