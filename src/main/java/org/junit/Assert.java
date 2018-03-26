@@ -838,7 +838,7 @@ public class Assert {
     static String format(String message, Object expected, Object actual) {
         String formatted = "";
         if (message != null && !"".equals(message)) {
-            formatted = message + " ";
+            formatted = message + "  ";
         }
         String expectedString = String.valueOf(expected);
         String actualString = String.valueOf(actual);
