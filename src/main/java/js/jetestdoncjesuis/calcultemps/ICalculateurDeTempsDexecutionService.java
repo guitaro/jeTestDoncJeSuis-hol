@@ -15,4 +15,9 @@ public interface ICalculateurDeTempsDexecutionService {
    */
   public void arreterCalculTempsMethode(ICalculDeTemps calculDeTemps);
 
+  /**
+   * Calcule et loggue le temps d'éxecution d'une méthode.
+   */
+  public long calculerTempsExecutionMethode(ICalculDeTemps calculDeTemps);
+
 }
