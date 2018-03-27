@@ -20,7 +20,7 @@ public class TestCalculateurDeTempsDexecutionViaInterpolationQuantiqueService {
     long tempsExecutionMethode = service.calculerTempsExecutionMethode(calculDeTemps);
 
     // Then
-    Assert.assertEquals(200, 200);
+    Assert.assertEquals(200, tempsExecutionMethode);
   }
 
 }
