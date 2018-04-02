@@ -18,7 +18,7 @@ public class Ecran {
     public void clicAleatoire() {
         int numeroBoutonACliquer = 0;
         if (boutons.size() > 1) {
-            numeroBoutonACliquer = new Random().nextInt(boutons.size()-1);
+            numeroBoutonACliquer = 0; //new Random().nextInt(boutons.size()-1);
         }
         if (!boutons.isEmpty()) {
             boutons.get(numeroBoutonACliquer).clic();
