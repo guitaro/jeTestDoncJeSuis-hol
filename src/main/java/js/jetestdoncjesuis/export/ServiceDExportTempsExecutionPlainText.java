@@ -12,7 +12,7 @@ public class ServiceDExportTempsExecutionPlainText implements IServiceDExportTem
     String str = "s." + calculDeTemps.getTempsDebutExecution() + "|t" + tempsExecutionMethode;
     BufferedWriter writer;
     try {
-      writer = new BufferedWriter(new FileWriter(System.currentTimeMillis()+"_time.txt"));
+      writer = new BufferedWriter(new FileWriter("01_time.txt"));
       writer.write(str);
       writer.close();
     } catch (IOException e) {
