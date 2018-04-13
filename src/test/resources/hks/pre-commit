@@ -1,4 +1,3 @@
-# Thus we get only the fully staged files
 #!/bin/sh
 # Pre-commit hook for git which removes trailing whitespace, converts tabs to spaces, and enforces a max line length.
 # The script does not process files that are partially staged. Reason: The `git add` in the last line would fully
@@ -36,7 +35,7 @@ for FILE in $fully_staged_files ; do
 	echo "Fixing whitespace and newline in $FILE" >&2
 
 	# Replace tabs with four spaces
-    sed -i 's/\t /g' "$FILE"
+    sed -i 's/\t/ /g' "$FILE"
 
 	# Stage all changes
 	git add "$FILE"
