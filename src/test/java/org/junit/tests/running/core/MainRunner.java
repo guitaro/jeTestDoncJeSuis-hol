@@ -39,12 +39,6 @@ public class MainRunner {
             throw new ExitException(status);
         }
 
-        @SuppressWarnings("deprecation")
-        @Override
-        public boolean getInCheck() {
-            return (originalSecurityManager != null) && originalSecurityManager.getInCheck();
-        }
-
         @Override
         public Object getSecurityContext() {
             return (originalSecurityManager == null) ? super.getSecurityContext() : originalSecurityManager.getSecurityContext();
